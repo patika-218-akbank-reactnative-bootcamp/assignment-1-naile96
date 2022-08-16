@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {
+  FlatList,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -22,13 +23,26 @@ import {
 import Ionic from "react-native-vector-icons/Ionicons"
 import Home from './src/components/Home';
 import ProfileImage from './src/components/ProfileImage';
+import Story from './src/components/Story';
 
 const App = () => {
   return (
     <SafeAreaView>
+      
       <StatusBar backgroundColor="white" barStyle="dark-content" animated={true} />
       <Home />
-      <ProfileImage />
+      {/* <ProfileImage url={'https://avatars.githubusercontent.com/u/98233503?v=4'}/> */}
+      <ScrollView horizontal={true}>
+        <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+        <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+
+        <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+        <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+        <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+
+        <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+      </ScrollView>
+
     </SafeAreaView>
   )
 };
