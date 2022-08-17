@@ -4,4 +4,5 @@
 
 This project is sample Instagram Clone Application for educational purpose in Patika-Akbank Homework #1.
 
-![Alt text](assets/simulator.gif "Small Demo of The Project")
+
+<img src="assets/simulator.gif" width="200" height="400">
