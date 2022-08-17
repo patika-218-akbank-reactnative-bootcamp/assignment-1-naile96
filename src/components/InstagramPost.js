@@ -34,6 +34,7 @@ const InstagramPost = ({data}) => {
         {/* <Text>{likes}</Text> */}
         <Text>{data.likedProfiles.length} Likes</Text>
         <Text>{data.likedProfiles[0].name} and other people liked</Text>
+        <Text>{data.description}</Text>
       </View>
     </Pressable>
   );

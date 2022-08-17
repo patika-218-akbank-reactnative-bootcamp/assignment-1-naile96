@@ -1,13 +1,12 @@
 import React from 'react';
-import {Image, StyleSheet, View} from 'react-native';;
+import {Image, StyleSheet, View} from 'react-native';
 
 const ProfileImage = ({url, size = 85}) => {
-
-    return (
+  return (
     <View style={[styles.view, {width: size, height: size}]}>
       <Image style={styles.image} source={{uri: url}} />
     </View>
-  );;
+  );
 };
 
 const styles = StyleSheet.create({
@@ -16,8 +15,7 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     borderWidth: 3,
     borderColor: '#CD3DC0',
-
-    },
+  },
   image: {
     height: '100%',
     wıdth: '100%',

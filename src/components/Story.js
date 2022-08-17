@@ -8,7 +8,7 @@ const Story = ({data}) => {
       <ProfileImage url={data.avatarUrl} />
       <Text style={styles.text}>{data.name}</Text>
     </View>
-  );;
+  );
 };
 
 const styles = StyleSheet.create({

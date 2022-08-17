@@ -50,7 +50,8 @@ export const Posts = [
     profile: Profiles[0],
     postUrl:
       'https://pratikbilgievi.com/wp-content/uploads/2021/03/telefonlar-icin-harika-doga-resimleri-1.jpg',
-    likedProfiles: [Profiles[2], Profiles[3]],
+    likedProfiles: [Profiles[2], Profiles[3], Profiles[5], Profiles[4]],
+    description: 'Amazing View',
   },
   {
     profile: Profiles[1],
@@ -62,27 +63,31 @@ export const Posts = [
     profile: Profiles[2],
     postUrl:
       'https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE',
-    likedProfiles: [Profiles[0], Profiles[1]],
+    likedProfiles: [Profiles[0], Profiles[1], Profiles[4]],
   },
   {
     profile: Profiles[3],
     postUrl:
       'https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY',
+    likedProfiles: [Profiles[4], Profiles[5], Profiles[2]],
   },
   {
     profile: Profiles[4],
     postUrl:
       'https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ',
+    likedProfiles: [Profiles[4], Profiles[5], Profiles[2]],
   },
   {
     profile: Profiles[5],
     postUrl:
       'https://i.picsum.photos/id/1012/3973/2639.jpg?hmac=s2eybz51lnKy2ZHkE2wsgc6S81fVD1W2NKYOSh8bzDc',
+    likedProfiles: [Profiles[4], Profiles[5], Profiles[2]],
   },
   {
     profile: Profiles[6],
     postUrl:
       'https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk',
+    likedProfiles: [Profiles[4], Profiles[5], Profiles[2]],
   },
 ];
 
