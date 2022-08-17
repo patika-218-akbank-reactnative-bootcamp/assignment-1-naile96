@@ -15,8 +15,14 @@ const InstagramPost = ({data}) => {
     <Pressable>
       {/* header */}
       <View style={styles.header}>
-        <ProfileImage size={60} url={data.profile.avatarUrl} />
-        <Text style={styles.headerName}>{data.profile.name}</Text>
+        <View style={{flexDirection: 'row'}}>
+          <ProfileImage size={60} url={data.profile.avatarUrl} />
+          <Text style={styles.headerName}>{data.profile.name}</Text>
+        </View>
+
+        <View style={{padding: 10, marginTop: 7}}>
+          <Ionicons size={30} name="ellipsis-horizontal-outline" />
+        </View>
       </View>
 
       {/* body */}
@@ -52,6 +58,7 @@ const InstagramPost = ({data}) => {
 
 const styles = StyleSheet.create({
   header: {
+    justifyContent: 'space-between',
     display: 'flex',
     flexDirection: 'row',
   },

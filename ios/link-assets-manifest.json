@@ -6,6 +6,10 @@
       "sha1": "4e77868439280fb434d4697c7b911271406c81f3"
     },
     {
+      "path": "assets/Billabong.ttf",
+      "sha1": "bb8d488bbbd8fdd5021139f24bdabdfbcb69a753"
+    },
+    {
       "path": "assets/Entypo.ttf",
       "sha1": "12b5670eb178138f77285d5f2c246d3cc5fa67d6"
     },
@@ -64,6 +68,10 @@
     {
       "path": "assets/Zocial.ttf",
       "sha1": "6a48a962b06cc3acbdfd61df0d9a34744eea5e8d"
+    },
+    {
+      "path": "assets/img1.png",
+      "sha1": "767f68b5fd48d1b3396e3e4c53eba84ea3f2b22e"
     }
   ]
 }

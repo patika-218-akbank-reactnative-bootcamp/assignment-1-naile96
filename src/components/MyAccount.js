@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-const MyAccount = ({url, size = 85, data}) => {
+const MyAccount = ({url, size = 77, data}) => {
   return (
     <View style={[styles.view, {width: size, height: size}]}>
       <Image style={styles.image} source={{uri: data.avatarUrl}} />
@@ -15,9 +15,11 @@ const MyAccount = ({url, size = 85, data}) => {
 
 const styles = StyleSheet.create({
   icon: {
-    fontSize: 25,
+    fontSize: 30,
     color: '#378FD9',
     backgroundColor: 'transparent',
+    borderRadius: 40,
+    borderColor: '#FFFFFF',
     borderRadius: 100,
   },
   view: {
@@ -28,7 +30,7 @@ const styles = StyleSheet.create({
     height: '100%',
     wıdth: '100%',
     borderRadius: 40,
-    borderWidth: 3,
+    borderWidth: 4,
     borderColor: '#FFFFFF',
   },
 });

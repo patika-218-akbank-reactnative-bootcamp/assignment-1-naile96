@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 
-const ProfileImage = ({url, size = 85}) => {
+const ProfileImage = ({url, size = 77}) => {
   return (
     <View style={[styles.view, {width: size, height: size}]}>
       <Image style={styles.image} source={{uri: url}} />

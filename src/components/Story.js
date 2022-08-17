@@ -7,6 +7,7 @@ const Story = ({data}) => {
     <View>
       <ProfileImage url={data.avatarUrl} />
       <Text style={styles.text}>{data.name}</Text>
+      
     </View>
   );
 };
