@@ -25,14 +25,24 @@ const InstagramPost = ({data}) => {
       </View>
 
       {/* footer */}
-      <View>
+      <View style={{padding: 8}}>
         <View style={{flexDirection: 'row'}}>
-          <Ionicons size={30} name="heart-outline" />
-          <Ionicons size={30} name="chatbubble-outline" />
-          <Ionicons size={30} name="paper-plane-outline" />
+          <Ionicons size={25} style={{paddingRight: 5}} name="heart-outline" />
+          <Ionicons
+            size={25}
+            style={{paddingRight: 5}}
+            name="chatbubble-outline"
+          />
+          <Ionicons
+            size={25}
+            style={{paddingRight: 5}}
+            name="paper-plane-outline"
+          />
         </View>
         {/* <Text>{likes}</Text> */}
-        <Text>{data.likedProfiles.length} Likes</Text>
+        <Text style={{fontWeight: 'bold', marginTop: 10}}>
+          {data.likedProfiles.length} Likes
+        </Text>
         <Text>{data.likedProfiles[0].name} and other people liked</Text>
         <Text>{data.description}</Text>
       </View>

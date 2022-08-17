@@ -23,9 +23,9 @@ const App = () => {
 const styles = StyleSheet.create({
   lineStyle: {
     borderWidth: 0.5,
-    borderColor: 'black',
+    borderColor: 'gray',
     margin: 1,
-    marginBottom: 20,
+    marginBottom: 5,
   },
 });
 

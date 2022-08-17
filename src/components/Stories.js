@@ -1,12 +1,13 @@
 import React from 'react';
-import {ScrollView} from 'react-native';
+import {ScrollView, View} from 'react-native';
 import Story from './Story';
 import {StoriesData} from './MockData';
+import MyAccount from './MyAccount';
 
 const Stories = () => {
   return (
     <ScrollView horizontal={true} style={{height: 150}}>
-      <Story data={StoriesData[0]} />
+      <MyAccount data={StoriesData[0]} />
       <Story data={StoriesData[1]} />
       <Story data={StoriesData[2]} />
       <Story data={StoriesData[3]} />
