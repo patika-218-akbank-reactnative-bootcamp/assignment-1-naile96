@@ -1,21 +1,19 @@
-import React from 'react'
-import { ScrollView, View } from 'react-native'
-import Story from './Story'
+import React from 'react';
+import {ScrollView, View} from 'react-native';
+import Story from './Story';
+import {StoriesData} from './MockData';
 
 const Stories = () => {
-    return (
-        <ScrollView horizontal={true} style={{ height: 150 }}>
-            <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
-            <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
+  return (
+    <ScrollView horizontal={true} style={{height: 150}}>
+      <Story data={StoriesData[0]} />
+      <Story data={StoriesData[1]} />
+      <Story data={StoriesData[2]} />
+      <Story data={StoriesData[3]} />
+      <Story data={StoriesData[4]} />
+      <Story data={StoriesData[5]} />
+    </ScrollView>
+  );
+};
 
-            <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
-            <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
-            <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
-
-            <Story url={'https://avatars.githubusercontent.com/u/98233503?v=4'} name={"naile"}></Story>
-      </ScrollView>
-       
-    )
-}
-
-export default Stories
+export default Stories;

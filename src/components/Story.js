@@ -1,20 +1,20 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import ProfileImage from './ProfileImage'
+import React from 'react';
+import {StyleSheet, Text, View} from 'react-native';
+import ProfileImage from './ProfileImage';
 
-const Story = ({url, name}) => {
-    return (
-        <View>
-            <ProfileImage url={url} />
-            <Text style={styles.text}>{name}</Text>
-        </View>
-    )
-}
+const Story = ({data}) => {
+  return (
+    <View>
+      <ProfileImage url={data.avatarUrl} />
+      <Text style={styles.text}>{data.name}</Text>
+    </View>
+  );;
+};
 
 const styles = StyleSheet.create({
-    text:  {
-        textAlign: 'center',
-    }
-})
+  text: {
+    textAlign: 'center',
+  },
+});
 
-export default Story
+export default Story;
