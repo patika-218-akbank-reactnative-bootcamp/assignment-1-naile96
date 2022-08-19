@@ -1,28 +1,43 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Home = () => {
   return (
-    <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-      <Text style={{fontFamily: 'Billabong', fontSize: 40, paddingLeft: 10}}>
-        Instagram
-      </Text>
-      <View style={{flexDirection: 'row', paddingRight: 15}}>
-        <Ionicons
-          size={25}
-          style={{paddingRight: 15}}
-          name="add-circle-outline"
-        />
-        <Ionicons size={25} style={{paddingRight: 15}} name="heart-outline" />
-        <Ionicons
-          size={25}
-          style={{paddingRight: 15}}
-          name="chatbubble-ellipses-outline"
-        />
+    <View style={styles.view}>
+      <Text style={styles.text}>Instagram</Text>
+      <View style={styles.iconsView}>
+        <Ionicons style={styles.icons} name="duplicate-outline" />
+        <Ionicons style={styles.icons} name="heart-outline" />
+        <Ionicons style={styles.icons} name="chatbubble-ellipses-outline" />
       </View>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  view: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  headerName: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+  },
+  text: {
+    fontFamily: 'Billabong',
+    fontSize: 40,
+    paddingLeft: 10,
+  },
+  iconsView: {
+    flexDirection: 'row',
+    paddingRight: 15,
+    size: 25,
+  },
+  icons: {
+    paddingRight: 15,
+    fontSize: 25,
+  },
+});
 
 export default Home;

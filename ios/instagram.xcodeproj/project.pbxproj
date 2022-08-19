@@ -32,6 +32,7 @@
 		0E86736FF1AA44838E096C2D /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1AAD91C1A2D4FE283330256 /* Zocial.ttf */; };
 		55D661FD302B46D7AF1CA8BD /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF4671FADD74433B3CBEB34 /* Billabong.ttf */; };
 		48759A6B24314C668652D6ED /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C7C21BE0D3404BA49762EF /* img1.png */; };
+		88DD9EBC9C484C3585B1F9D7 /* simulator.gif in Resources */ = {isa = PBXBuildFile; fileRef = B491514BE0B2404FB2559CD0 /* simulator.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		B1AAD91C1A2D4FE283330256 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../assets/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2EF4671FADD74433B3CBEB34 /* Billabong.ttf */ = {isa = PBXFileReference; name = "Billabong.ttf"; path = "../assets/Billabong.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B3C7C21BE0D3404BA49762EF /* img1.png */ = {isa = PBXFileReference; name = "img1.png"; path = "../assets/img1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B491514BE0B2404FB2559CD0 /* simulator.gif */ = {isa = PBXFileReference; name = "simulator.gif"; path = "../assets/simulator.gif"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				B1AAD91C1A2D4FE283330256 /* Zocial.ttf */,
 				2EF4671FADD74433B3CBEB34 /* Billabong.ttf */,
 				B3C7C21BE0D3404BA49762EF /* img1.png */,
+				B491514BE0B2404FB2559CD0 /* simulator.gif */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				0E86736FF1AA44838E096C2D /* Zocial.ttf in Resources */,
 				55D661FD302B46D7AF1CA8BD /* Billabong.ttf in Resources */,
 				48759A6B24314C668652D6ED /* img1.png in Resources */,
+				88DD9EBC9C484C3585B1F9D7 /* simulator.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

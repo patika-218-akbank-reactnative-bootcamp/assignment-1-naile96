@@ -6,7 +6,7 @@ const MyAccount = ({url, size = 77, data}) => {
   return (
     <View style={[styles.view, {width: size, height: size}]}>
       <Image style={styles.image} source={{uri: data.avatarUrl}} />
-      <View style={{position: 'absolute', bottom: 0, right: 8, zIndex: 1}}>
+      <View style={styles.viewIcon}>
         <Ionicons style={styles.icon} name="add-circle" />
       </View>
     </View>
@@ -14,13 +14,14 @@ const MyAccount = ({url, size = 77, data}) => {
 };
 
 const styles = StyleSheet.create({
+  viewIcon: {position: 'absolute', bottom: 0, right: 8, zIndex: 1},
+
   icon: {
     fontSize: 30,
     color: '#378FD9',
     backgroundColor: 'transparent',
     borderRadius: 40,
     borderColor: '#FFFFFF',
-    borderRadius: 100,
   },
   view: {
     margin: 5,
