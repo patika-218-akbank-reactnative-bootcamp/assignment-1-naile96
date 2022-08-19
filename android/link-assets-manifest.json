@@ -72,6 +72,10 @@
     {
       "path": "assets/img1.png",
       "sha1": "767f68b5fd48d1b3396e3e4c53eba84ea3f2b22e"
+    },
+    {
+      "path": "assets/simulator.gif",
+      "sha1": "5e5a0b1fa93ed34e7456a07f312c626ac289f87e"
     }
   ]
 }
